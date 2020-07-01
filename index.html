@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Countdown Clock">
+    <meta name="Rishikesh" content="Countdown Clock">
+   
+    <title>Countdown Clock</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link href="/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<main class="container">
+    
+    <div class="text-center">
+            <h4>Select Future Date and Time</h4>
+            <input type="datetime-local" id="myDate">
+            <button onclick="myFunction()">Start Cuntdown</button>
+            <input type="button" onclick="reset()" value="Reset Countdown">
+        
+        <h4 class="giveaway"></h4>
+        <div class="deadline">
+            <!-- Days -->
+            <div class="deadline-format">
+                <div>
+                    <h4 class="days">0</h4><span>Days</span>
+                </div>
+            </div>
+            <!-- End of Item -->
+            <!-- Hours -->
+            <div class="deadline-format">
+                <div>
+                    <h4 class="hours">0</h4><span>Hours</span>
+                </div>
+            </div>
+            <!-- End of Item -->
+            <!-- Minutes -->
+            <div class="deadline-format">
+                <div>
+                    <h4 class="mins">0</h4><span>Mins</span>
+                </div>
+            </div>
+            <!-- End of Item -->
+            <!-- Second -->
+            <div class="deadline-format">
+                <div>
+                    <h4 class="sec">0</h4><span>Secs</span>
+                </div>
+            </div>
+            <!-- End of Item -->
+        </div>        
+    </div>
+</main>
+    <!-- /.container -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

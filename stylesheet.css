@@ -1,0 +1,39 @@
+body{
+    background-color: azure;
+    color: white;
+}
+.deadline{
+    display: inline-flex;
+}
+.giveaway{
+
+    padding: 26px;
+    padding-bottom: 20px;
+}
+
+.container{
+    background-color: blueviolet;
+    margin: 60px auto;
+    padding: 40px 0px 40px 0px;
+    border-radius: 2%;
+    box-shadow: 5px 10px 10px 5px #000000;
+}
+.deadline-format{
+    padding-top: 20px;
+    color: black;
+    width:70px; 
+    height:100px;
+    margin: 10px;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    background-image: url(img.jpg);
+    box-shadow: 1px 5px 5px 3px;
+}
+input, button{
+    color: white;
+    margin: 10px;
+    padding: 4px;
+    background-color:#f51414;
+    border-color: white; 
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px 3px;
+}
