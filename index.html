@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-   
+    <!--    <link rel="icon" href="../../../../favicon.ico">
+-->
     <title>Countdown Clock</title>
     
     <!--Template based on URL below-->
@@ -15,6 +16,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Place your stylesheet here-->
+    <!--     <link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+-->
     <style>
         body{
             background-color: azure;
@@ -70,15 +74,14 @@
 </head>
 
 <body>
-
 <main role="main" class="container">
     
     <div class="text-center">
-        <h4>Select Future Date and Time</h4>
-        <input type="datetime-local" id="myDate">
-        <button onclick="myFunction()">Start Cuntdown</button>
+            <h4>Select Future Date and Time</h4>
+            <input type="datetime-local" id="myDate">
+            <button onclick="myFunction()">Start Cuntdown</button>
+            <input type="button" onclick="reset()" value="Reset Countdown">
         
-
         <h4 class="giveaway">
             Ends on
         </h4>
@@ -111,11 +114,10 @@
                 </div>
             </div>
             <!-- End of Item -->
-        </div>
-            
+        </div>        
     </div>
 </main>
-<p id="demo"></p>    
+
     <!-- /.container -->
     <script type="text/javascript" src="script.js"></script>
 
