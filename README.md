@@ -1,2 +1,2 @@
 # Javascript-Project
-Countdown Cloack 
+Countdown Clock 
